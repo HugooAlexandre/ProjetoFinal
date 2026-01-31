@@ -1,8 +1,8 @@
 # Projeto Final 
 
-Este projeto consiste numa aplicação Web Full-Stack para a gestão de propostas de temas de "Projeto Final de Curso" num contexto académico. A aplicação permite que docentes registem, editem e removam propostas de projeto, associando coorientadores e alunos, garantindo integridade referencial e segurança de dados.
+Este projeto consiste numa aplicação Web para a gestão de propostas de temas de "Projeto Final de Curso" num contexto académico. A aplicação permite que docentes registem, editem e removam propostas de projeto, associando coorientadores e alunos, garantindo integridade referencial e segurança de dados.
 
-O projeto foi desenvolvido com competências de **Vue.js**, **Node.js** e **PostgreSQL**.
+O projeto foi desenvolvido com **Vue.js**, **Node.js** e **PostgreSQL**.
 
 ---
 
@@ -211,4 +211,5 @@ projeto-final-gestao/
         ├── App.vue
 
         └── main.js
+
 
