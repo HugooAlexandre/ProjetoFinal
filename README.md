@@ -133,9 +133,13 @@ Aceda à aplicação no browser. Pode utilizar as seguintes credenciais geradas 
 
 
 projeto-final-gestao/
+
 │
+
 ├── server/                     # BACK-END
-│   ├── .env                   
+
+│   ├── .env     
+
 │   ├── package.json
 │   ├── src/
 │   │   ├── config/
@@ -171,4 +175,5 @@ projeto-final-gestao/
         │   ├── Dashboard.vue
         │   └── ProposalForm.vue
         ├── App.vue
+
         └── main.js
