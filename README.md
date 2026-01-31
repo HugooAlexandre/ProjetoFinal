@@ -134,7 +134,7 @@ Aceda à aplicação no browser. Pode utilizar as seguintes credenciais geradas 
 
 projeto-final/
 │
-├── server/                     BACK-END
+├── server/                   #  BACK-END
 │   ├── .env                   
 │   ├── package.json
 │   ├── src/
@@ -155,7 +155,7 @@ projeto-final/
 │       ├── schema.sql          
 │       └── seed.js             
 │
-└── client/                     FRONT-END (Vue + Vite)
+└── client/                   #  FRONT-END (Vue + Vite)
     ├── package.json
     ├── vite.config.js
     ├── index.html
@@ -172,4 +172,5 @@ projeto-final/
         │   └── ProposalForm.vue
         ├── App.vue
         └── main.js
+
 
