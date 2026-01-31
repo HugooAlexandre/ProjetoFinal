@@ -1,4 +1,4 @@
-# Gestão de Propostas de Projeto Final - Prova de Conceito (PoC)
+# Projeto Final 
 
 Este projeto consiste numa aplicação Web Full-Stack para a gestão de propostas de temas de "Projeto Final de Curso" num contexto académico. A aplicação permite que docentes registem, editem e removam propostas de projeto, associando coorientadores e alunos, garantindo integridade referencial e segurança de dados.
 
@@ -141,39 +141,74 @@ projeto-final-gestao/
 │   ├── .env     
 
 │   ├── package.json
+
 │   ├── src/
+
 │   │   ├── config/
-│   │   │   └── db.js         
-│   │   ├── controllers/       
+
+│   │   │   └── db.js    
+
+│   │   ├── controllers/ 
+
 │   │   │   ├── authController.js
+
 │   │   │   ├── publicController.js
+
 │   │   │   └── proposalController.js
+
 │   │   ├── middleware/
+
 │   │   │   └── authMiddleware.js 
-│   │   ├── routes/            
+
+│   │   ├── routes/         
+
 │   │   │   ├── auth.js
+
 │   │   │   ├── public.js
+
 │   │   │   └── proposals.js
-│   │   └── app.js             
+
+│   │   └── app.js      
+
 │   └── scripts/
-│       ├── schema.sql          
-│       └── seed.js             
+
+│       ├── schema.sql       
+
+│       └── seed.js         
+
 │
+
 └── client/                     # FRONT-END (Vue + Vite)
+
     ├── package.json
+    
     ├── vite.config.js
+    
     ├── index.html
+    
     └── src/
+    
         ├── api/
+        
         │   ├── style.css
-        │   └── axios.js       
+        
+        │   └── axios.js    
+        
         ├── router/
-        │   └── index.js        
+        
+        │   └── index.js      
+        
         ├── views/
+        
         │   ├── Login.vue
+        
         │   ├── PublicList.vue
+        
         │   ├── Dashboard.vue
+        
         │   └── ProposalForm.vue
+        
         ├── App.vue
 
         └── main.js
+
