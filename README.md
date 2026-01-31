@@ -131,7 +131,7 @@ Aceda à aplicação no browser. Pode utilizar as seguintes credenciais geradas 
 
 ##  Estrutura do Projeto
 
-
+```text
 projeto-final/
 │
 ├── server/                   #  BACK-END
@@ -172,5 +172,6 @@ projeto-final/
         │   └── ProposalForm.vue
         ├── App.vue
         └── main.js
+
 
 
