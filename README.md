@@ -132,84 +132,43 @@ Aceda à aplicação no browser. Pode utilizar as seguintes credenciais geradas 
 ##  Estrutura do Projeto
 
 
-projeto-final-gestao/
-
+projeto-final/
 │
-
 ├── server/                     # BACK-END
-
-│   ├── .env     
-
+│   ├── .env                   
 │   ├── package.json
-
 │   ├── src/
-
 │   │   ├── config/
-
-│   │   │   └── db.js    
-
-│   │   ├── controllers/ 
-
+│   │   │   └── db.js         
+│   │   ├── controllers/       
 │   │   │   ├── authController.js
-
 │   │   │   ├── publicController.js
-
 │   │   │   └── proposalController.js
-
 │   │   ├── middleware/
-
 │   │   │   └── authMiddleware.js 
-
-│   │   ├── routes/         
-
+│   │   ├── routes/            
 │   │   │   ├── auth.js
-
 │   │   │   ├── public.js
-
 │   │   │   └── proposals.js
-
-│   │   └── app.js      
-
+│   │   └── app.js             
 │   └── scripts/
-
-│       ├── schema.sql       
-
-│       └── seed.js         
-
+│       ├── schema.sql          
+│       └── seed.js             
 │
-
 └── client/                     # FRONT-END (Vue + Vite)
-
     ├── package.json
-    
     ├── vite.config.js
-    
     ├── index.html
-    
     └── src/
-    
         ├── api/
-        
         │   ├── style.css
-        
-        │   └── axios.js    
-        
+        │   └── axios.js       
         ├── router/
-        
-        │   └── index.js      
-        
+        │   └── index.js        
         ├── views/
-        
         │   ├── Login.vue
-        
         │   ├── PublicList.vue
-        
         │   ├── Dashboard.vue
-        
         │   └── ProposalForm.vue
-        
         ├── App.vue
-
         └── main.js
-
-
